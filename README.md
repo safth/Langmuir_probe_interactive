@@ -1,5 +1,8 @@
 # Langmuir_probe_interactive
 
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/33142211/44130214-64b3fec6-a01a-11e8-8a73-f7b5dfd90016.gif)
+
+
 This code is for real-time analysis and visualization of Langmuir probe curves.
 
 The function shows 
@@ -21,6 +24,3 @@ The function shows
 
 The main idea behind this program is to change the upper and lower bound of all the Fits (with thoses sliders) and see the direct effect on the extracted parameters such as Te.
 
-
-
-![ezgif com-video-to-gif](https://user-images.githubusercontent.com/33142211/44130214-64b3fec6-a01a-11e8-8a73-f7b5dfd90016.gif)
