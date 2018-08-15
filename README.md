@@ -15,7 +15,8 @@ The function shows
 - A fit on the electron saturation current. The interception between this fit and the one for Te give the plasma potention (Vp) and the electron saturation current (Ise) (green)
 
 
-<img width="628" alt="screen shot 2018-08-14 at 11 02 12 pm" src="https://user-images.githubusercontent.com/33142211/44129436-5e9c7b16-a016-11e8-828e-3b67f22ab711.png">
+<img width="627" alt="screen shot 2018-08-14 at 11 23 07 pm" src="https://user-images.githubusercontent.com/33142211/44129941-0df893e0-a019-11e8-8a93-f3b18349ce88.png">
+
 
 
 The main idea behind this program is to change the upper and lower bound of all the Fits (with thoses sliders) and see the direct effect on the extracted parameters such as Te.
