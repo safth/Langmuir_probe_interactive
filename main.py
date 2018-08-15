@@ -46,6 +46,8 @@ V_f = x[iV_f]
 fig, ax = plt.subplots()
 plt.subplots_adjust(left=0.25, bottom=0.25)
 ax.set_ylim(1e-6, 2*max(y)) # y axis limit.
+plt.xlabel('Tension (V)')
+plt.ylabel('Current (A)')
 
 
 # Plot of the IV curve (data provided)
@@ -70,12 +72,12 @@ plot_Ne_cursor, = plt.semilogy(Fit_Ne.posx,Fit_Ne.posy, 'o', color='green')
 ##
 axcolor = 'lightgoldenrodyellow'
                 #x pos, y pos, x size, y size
-axpos1 = plt.axes([0.20, 0.15, 0.30, 0.03], facecolor=axcolor)
-axpos2 = plt.axes([0.60, 0.15, 0.30, 0.03], facecolor=axcolor)
-axpos3 = plt.axes([0.20, 0.10, 0.30, 0.03], facecolor=axcolor)
-axpos4 = plt.axes([0.60, 0.10, 0.30, 0.03], facecolor=axcolor)
-axpos5 = plt.axes([0.20, 0.05, 0.30, 0.03], facecolor=axcolor)
-axpos6 = plt.axes([0.60, 0.05, 0.30, 0.03], facecolor=axcolor)
+axpos1 = plt.axes([0.20, 0.12, 0.30, 0.03], facecolor=axcolor)
+axpos2 = plt.axes([0.60, 0.12, 0.30, 0.03], facecolor=axcolor)
+axpos3 = plt.axes([0.20, 0.07, 0.30, 0.03], facecolor=axcolor)
+axpos4 = plt.axes([0.60, 0.07, 0.30, 0.03], facecolor=axcolor)
+axpos5 = plt.axes([0.20, 0.02, 0.30, 0.03], facecolor=axcolor)
+axpos6 = plt.axes([0.60, 0.02, 0.30, 0.03], facecolor=axcolor)
 
 spos1 = Slider(axpos1, 'fit ion',valmin= 0, valmax=len(x), valinit=Ion_current.icursor[0])
 spos2 = Slider(axpos2, '',valmin= 0, valmax=len(x)-1, valinit=Ion_current.icursor[1])
